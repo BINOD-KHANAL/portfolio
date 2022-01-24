@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&family=BenchNine:wght@300&family=Blinker:wght@400;600&family=Fira+Sans:ital,wght@0,500;1,500&family=Sriracha&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.sidebar{
+     background-color:rgba(128, 128, 128, 0.685); 
+    width: 434px;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 45px;
+    
+}
+.sidebar nav li{
+    list-style: none;
+    padding-top: 30px;
+    
+}
+.sidebar nav li a{
+    text-decoration: none;
+}
+
+.main{
+    /* background-color: yellow; */
+    width:90vw;
+}
+.container{
+    display:flex;
+}
+.infocontainer{
+/* background-color:blueviolet; */
+height:60vh;
+width:80vw ;
+margin:140px auto;
+display: flex;
+justify-content:space-around;
+}
+.devinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    font-family: 'Baskervville', serif;
+}
+.hello{
+    font-size:75px;
+}
+.name{
+    font-size:55px;
+}
+.about{
+font-size:45px;
+}
+.buttons{
+    margin-top:25px;
+
+}
+.buttons button{
+    padding:9px 14px;
+    border-radius:5px;
+    color:white;
+    background-color:rgb(0, 47, 255);
+    cursor: pointer;
+    
+
+}
+.devpic img{
+    height: 60vh;
+    
+}
+/* contact.html css backup */
+.contactform{
+     font-family:'Fira Sans', sans-serif;
+     padding: 0 34px;
+     padding-top: 100px;
+     
+}
+.contactform h1{
+    text-align: ;
+    
+}
+.contactform form div{
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width:20vw;
+    border-radius: 4px;
+    
+}
+#emailHelp{
+    font-size: 8px;
+    color:rgb(32, 83, 99)
+
+}
+#form-check{
+    flex-direction: row;
+}
+
+
+#form-check input{
+width:20px;
+margin:3px 0;
+}
